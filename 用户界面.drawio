@@ -11,7 +11,7 @@
           <mxGeometry x="235" y="180" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="540" y="220" width="310" height="410" as="geometry" />
+          <mxGeometry x="540" y="220" width="470" height="410" as="geometry" />
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-5" value="模型分析系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="645" y="180" width="100" height="30" as="geometry" />
@@ -41,33 +41,33 @@
           <mxGeometry x="150" y="380" width="310" height="210" as="geometry" />
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-15" value="用户上传数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="711" y="291" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-17" value="制作同源异构数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="711" y="391" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-19" value="集成学习模型构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kK4ZyeL5XsI5Hed6kHEq-20" value="预测与验证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="639" y="481" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kK4ZyeL5XsI5Hed6kHEq-15" target="kK4ZyeL5XsI5Hed6kHEq-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="394" y="481" as="sourcePoint" />
+            <mxPoint x="444" y="431" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kK4ZyeL5XsI5Hed6kHEq-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kK4ZyeL5XsI5Hed6kHEq-17" target="kK4ZyeL5XsI5Hed6kHEq-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="394" y="481" as="sourcePoint" />
+            <mxPoint x="444" y="431" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kK4ZyeL5XsI5Hed6kHEq-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kK4ZyeL5XsI5Hed6kHEq-19" target="kK4ZyeL5XsI5Hed6kHEq-20">
+        <mxCell id="kK4ZyeL5XsI5Hed6kHEq-24" value="故障预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="794" y="481" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kK4ZyeL5XsI5Hed6kHEq-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kK4ZyeL5XsI5Hed6kHEq-17" target="kK4ZyeL5XsI5Hed6kHEq-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="394" y="481" as="sourcePoint" />
+            <mxPoint x="444" y="431" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
